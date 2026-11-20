@@ -166,3 +166,5 @@ Si quieres unirte a nuestra comunidad de desarrollo, aprender programación, mej
 ### Práctica del Alumno
 **Alumno:** Jesus Alfonso Moran Bayardo
 *Nota: Modificado para la práctica de Git y GitHub.*
+
+**Mi experiencia con los comandos:** Durante el desarrollo de la práctica, la instalación de Git y el uso de los comandos básicos como `add`, `commit`, `merge` y `clone` resultaron muy intuitivos. Mi mayor desafío ocurrió al intentar subir los cambios con `git push`, ya que el repositorio local seguía apuntando al enlace original del curso, lo que generó un error de permisos (403). Para solucionarlo, eliminé ese origen con `git remote remove origin`, vinculé mi propio repositorio usando `git remote add origin ...` y me autentiqué nuevamente desde el navegador. Tras corregir esto, todos los archivos se subieron exitosamente.
